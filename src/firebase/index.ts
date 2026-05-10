@@ -1,0 +1,34 @@
+'use client';
+import { initializeApp, getApp, getApps, FirebaseApp } from 'firebase/app';
+import { getAuth, Auth } from 'firebase/auth';
+import { getFirestore, Firestore } from 'firebase/firestore';
+import { firebaseConfig } from './config';
+
+let app: FirebaseApp;
+let auth: Auth;
+let firestore: Firestore;
+
+function initializeFirebase(): {
+  app: FirebaseApp;
+  auth: Auth;
+  firestore: Firestore;
+} {
+  if (typeof window !== 'undefined') {
+    if (!getApps().length) {
+      app = initializeApp(firebaseConfig);
+      auth = getAuth(app);
+      firestore = getFirestore(app);
+    } else {
+      app = getApp();
+      auth = getAuth(app);
+      firestore = getFirestore(app);
+    }
+    return { app, auth, firestore };
+  }
+  // We need to initialize the app on the server, but since we are
+  // in a client component we will just return the initialized instances
+  return { app, auth, firestore };
+}
+
+export { initializeFirebase };
+export * from './provider';

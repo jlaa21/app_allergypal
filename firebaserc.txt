@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "allergytest-spanish-7752-de593"
+  },
+  "targets": {
+    "allergytest-spanish-7752-de593": {
+      "hosting": {
+        "production": [
+          "allergytest-spanish-7752-de593"
+        ],
+        "staging": [
+          "epicutaneos-staging"
+        ],
+        "development": [
+          "epicutaneos-dev"
+        ]
+      }
+    }
+  }
+}

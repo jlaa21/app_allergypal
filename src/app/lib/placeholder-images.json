@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "admin-guide-1",
+      "description": "Preparation of the injection.",
+      "imageUrl": "https://images.unsplash.com/photo-1608326389417-d3f9cc46de04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmplY3Rpb24lMjBwcmVwYXJhdGlvbnxlbnwwfHx8fDE3NjMwNzI1MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "injection preparation"
+    },
+    {
+      "id": "admin-guide-2",
+      "description": "Pinching the skin for injection.",
+      "imageUrl": "https://images.unsplash.com/photo-1741278232341-33534050414c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHxfHxza2luJTIwcGluY2h8ZW58MHx8fHwxNzYzMDcyNTExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skin pinch"
+    },
+    {
+      "id": "admin-guide-3",
+      "description": "Administering the subcutaneous injection.",
+      "imageUrl": "https://images.unsplash.com/photo-1608326389417-d3f9cc46de04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3ViY3V0YW5lb3VzJTIwaW5qZWN0aW9ufGVufDB8fHx8MTc2MzA3MjUxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "subcutaneous injection"
+    }
+  ]
+}
